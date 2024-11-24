@@ -1,0 +1,16 @@
+{
+  "id": "932e744f-a31f-4532-8696-4b394e79063e",
+  "title": "The Beginning",
+  "sequence_number": 1,
+  "status": "planned",
+  "version": 1,
+  "created_at": "2024-11-23T17:33:34.405114",
+  "modified_at": "2024-11-23T17:33:34.405114",
+  "characters": [
+    "Sarah Chen"
+  ],
+  "plot_points": [
+    "The Discovery"
+  ],
+  "notes": ""
+}

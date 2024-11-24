@@ -1,0 +1,78 @@
+2024-11-23 17:12:58,886 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-23 17:12:58,886 - __main__ - INFO - Starting test chapter generation
+2024-11-23 17:12:58,886 - __main__ - INFO - Loading configuration from config.json
+2024-11-23 17:12:58,886 - __main__ - DEBUG - Loaded config data: {
+  "storage_path": "story_data",
+  "log_level": "INFO",
+  "api_config": {
+    "api_key": "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",
+    "base_url": "https://openrouter.ai/api/v1/chat/completions",
+    "model": "anthropic/claude-3.5-sonnet",
+    "headers": {
+      "HTTP-Referer": "http://localhost:3000",
+      "X-Title": "AI Novel Generation System"
+    },
+    "generation_params": {
+      "temperature": 0.5,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "repetition_penalty": 1,
+      "top_k": 0
+    },
+    "max_retries": 3,
+    "timeout": 30
+  }
+}
+2024-11-23 17:12:58,903 - __main__ - INFO - Initializing API configuration
+2024-11-23 17:12:58,903 - __main__ - INFO - API configuration initialized successfully
+2024-11-23 17:12:58,904 - __main__ - DEBUG - API Config details:
+2024-11-23 17:12:58,904 - __main__ - DEBUG - - Model: anthropic/claude-3.5-sonnet
+2024-11-23 17:12:58,904 - __main__ - DEBUG - - Base URL: https://openrouter.ai/api/v1/chat/completions
+2024-11-23 17:12:58,904 - __main__ - DEBUG - - Headers: {'Authorization': 'Bearer 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', 'HTTP-Referer': 'http://localhost:3000', 'X-Title': 'AI Novel Generation System'}
+2024-11-23 17:12:58,905 - __main__ - DEBUG - - Generation Params: {'temperature': 0.5, 'top_p': 1, 'frequency_penalty': 0, 'presence_penalty': 0, 'repetition_penalty': 1, 'top_k': 0}
+2024-11-23 17:12:58,905 - __main__ - INFO - Initializing ChapterWriter
+2024-11-23 17:12:58,905 - __main__ - INFO - Creating test chapter brief
+2024-11-23 17:12:58,906 - __main__ - INFO - Attempting to generate chapter...
+2024-11-23 17:12:58,907 - novel_ai.writer - INFO - Starting chapter generation for: The Beginning
+2024-11-23 17:13:11,436 - __main__ - INFO - Chapter generated successfully!
+2024-11-23 17:15:44,451 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-23 17:15:44,451 - __main__ - INFO - Starting test chapter generation
+2024-11-23 17:15:44,451 - __main__ - INFO - Loading configuration from config.json
+2024-11-23 17:15:44,451 - __main__ - DEBUG - Loaded config data: {
+  "storage_path": "story_data",
+  "log_level": "INFO",
+  "api_config": {
+    "api_key": "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",
+    "base_url": "https://openrouter.ai/api/v1/chat/completions",
+    "model": "anthropic/claude-3.5-sonnet",
+    "headers": {
+      "HTTP-Referer": "http://localhost:3000",
+      "X-Title": "AI Novel Generation System"
+    },
+    "generation_params": {
+      "temperature": 0.5,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "repetition_penalty": 1,
+      "top_k": 0
+    },
+    "max_retries": 3,
+    "timeout": 30
+  }
+}
+2024-11-23 17:15:44,451 - __main__ - INFO - Initializing API configuration
+2024-11-23 17:15:44,451 - __main__ - INFO - API configuration initialized successfully
+2024-11-23 17:15:44,451 - __main__ - DEBUG - API Config details:
+2024-11-23 17:15:44,451 - __main__ - DEBUG - - Model: anthropic/claude-3.5-sonnet
+2024-11-23 17:15:44,451 - __main__ - DEBUG - - Base URL: https://openrouter.ai/api/v1/chat/completions
+2024-11-23 17:15:44,451 - __main__ - DEBUG - - Headers: {'Authorization': 'Bearer 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', 'HTTP-Referer': 'http://localhost:3000', 'X-Title': 'AI Novel Generation System'}
+2024-11-23 17:15:44,451 - __main__ - DEBUG - - Generation Params: {'temperature': 0.5, 'top_p': 1, 'frequency_penalty': 0, 'presence_penalty': 0, 'repetition_penalty': 1, 'top_k': 0}
+2024-11-23 17:15:44,451 - __main__ - INFO - Initializing ChapterWriter
+2024-11-23 17:15:44,451 - __main__ - INFO - Creating test chapter brief
+2024-11-23 17:15:44,451 - __main__ - INFO - Attempting to generate chapter...
+2024-11-23 17:15:44,451 - novel_ai.writer - INFO - Starting chapter generation for: The Beginning
+2024-11-23 17:16:01,640 - __main__ - INFO - Chapter generated successfully!
+2024-11-23 17:16:01,659 - __main__ - INFO - Chapter saved to story_data\chapters\chapter_001_20241123_171601.txt
+2024-11-23 17:16:01,659 - __main__ - INFO - Metadata saved to story_data\chapters\chapter_001_20241123_171601_metadata.json

@@ -1,0 +1,23 @@
+{
+    "storage_path": "story_data",
+    "log_level": "INFO",
+    "api_config": {
+        "api_key": "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",
+        "base_url": "https://openrouter.ai/api/v1/chat/completions",
+        "model": "anthropic/claude-3.5-sonnet",
+        "headers": {
+            "HTTP-Referer": "http://localhost:3000",
+            "X-Title": "AI Novel Generation System"
+        },
+        "generation_params": {
+            "temperature": 0.5,
+            "top_p": 1,
+            "frequency_penalty": 0,
+            "presence_penalty": 0,
+            "repetition_penalty": 1,
+            "top_k": 0
+        },
+        "max_retries": 3,
+        "timeout": 30
+    }
+}

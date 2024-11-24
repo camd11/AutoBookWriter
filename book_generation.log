@@ -1,0 +1,310 @@
+2024-11-23 17:25:51,653 - __main__ - INFO - Starting book generation
+2024-11-23 17:25:51,654 - __main__ - INFO - Created story structure: Digital Consciousness
+2024-11-23 17:25:51,654 - __main__ - INFO - Generating chapter 1: The Beginning
+2024-11-23 17:25:51,654 - novel_ai.writer - INFO - Starting chapter generation for: The Beginning
+2024-11-23 17:26:18,167 - __main__ - INFO - Chapter saved to story_data\chapters\chapter_001_20241123_172618.txt
+2024-11-23 17:26:18,167 - __main__ - INFO - Metadata saved to story_data\chapters\chapter_001_20241123_172618_metadata.json
+2024-11-23 17:26:20,181 - __main__ - INFO - Generating chapter 2: Corporate Eyes
+2024-11-23 17:26:20,192 - novel_ai.writer - INFO - Starting chapter generation for: Corporate Eyes
+2024-11-23 17:26:50,530 - novel_ai.writer - ERROR - Failed to generate content: 
+2024-11-23 17:26:50,531 - __main__ - ERROR - Error generating chapter 2: 
+2024-11-23 17:30:36,697 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-23 17:30:36,698 - __main__ - INFO - Starting book generation
+2024-11-23 17:30:36,699 - __main__ - INFO - Created story structure: Digital Consciousness
+2024-11-23 17:30:36,699 - __main__ - INFO - 
+Generating chapter 1: The Beginning
+2024-11-23 17:30:36,699 - __main__ - INFO - Characters: Sarah Chen
+2024-11-23 17:30:36,699 - __main__ - INFO - Plot points: The Discovery
+2024-11-23 17:30:36,699 - __main__ - INFO - Attempt 1 to generate chapter 1
+2024-11-23 17:30:36,700 - __main__ - ERROR - Error on attempt 1: name 'story' is not defined
+2024-11-23 17:30:36,700 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 187, in generate_chapter_with_retry
+    "style_guide": story.style_guide.content,
+                   ^^^^^
+NameError: name 'story' is not defined. Did you mean: 'Story'?
+
+2024-11-23 17:30:36,701 - __main__ - INFO - Waiting 5 seconds before retry...
+2024-11-23 17:30:41,718 - __main__ - INFO - Attempt 2 to generate chapter 1
+2024-11-23 17:30:41,719 - __main__ - ERROR - Error on attempt 2: name 'story' is not defined
+2024-11-23 17:30:41,719 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 187, in generate_chapter_with_retry
+    "style_guide": story.style_guide.content,
+                   ^^^^^
+NameError: name 'story' is not defined. Did you mean: 'Story'?
+
+2024-11-23 17:30:41,719 - __main__ - INFO - Waiting 10 seconds before retry...
+2024-11-23 17:30:51,734 - __main__ - INFO - Attempt 3 to generate chapter 1
+2024-11-23 17:30:51,734 - __main__ - ERROR - Error on attempt 3: name 'story' is not defined
+2024-11-23 17:30:51,735 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 187, in generate_chapter_with_retry
+    "style_guide": story.style_guide.content,
+                   ^^^^^
+NameError: name 'story' is not defined. Did you mean: 'Story'?
+
+2024-11-23 17:30:51,735 - __main__ - ERROR - Failed to generate chapter 1: Failed to generate chapter after 3 attempts
+2024-11-23 17:30:51,735 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 187, in generate_chapter_with_retry
+    "style_guide": story.style_guide.content,
+                   ^^^^^
+NameError: name 'story' is not defined. Did you mean: 'Story'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 285, in generate_book
+    chapter = await generate_chapter_with_retry(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 206, in generate_chapter_with_retry
+    raise Exception(f"Failed to generate chapter after {max_retries} attempts")
+Exception: Failed to generate chapter after 3 attempts
+
+2024-11-23 17:33:06,788 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-23 17:33:06,788 - __main__ - INFO - Starting book generation
+2024-11-23 17:33:06,788 - __main__ - INFO - Created story structure: Digital Consciousness
+2024-11-23 17:33:06,788 - __main__ - INFO - 
+Generating chapter 1: The Beginning
+2024-11-23 17:33:06,788 - __main__ - INFO - Characters: Sarah Chen
+2024-11-23 17:33:06,788 - __main__ - INFO - Plot points: The Discovery
+2024-11-23 17:33:06,788 - __main__ - INFO - Attempt 1 to generate chapter 1
+2024-11-23 17:33:06,788 - novel_ai.writer - INFO - Starting chapter generation for: The Beginning
+2024-11-23 17:33:34,409 - __main__ - INFO - Chapter saved to story_data\chapters\chapter_001_20241123_173334.txt
+2024-11-23 17:33:34,409 - __main__ - INFO - Metadata saved to story_data\chapters\chapter_001_20241123_173334_metadata.json
+2024-11-23 17:33:34,409 - __main__ - INFO - Waiting 10 seconds before next chapter...
+2024-11-23 17:33:44,420 - __main__ - INFO - 
+Generating chapter 2: Corporate Eyes
+2024-11-23 17:33:44,421 - __main__ - INFO - Characters: Sarah Chen, Marcus Webb
+2024-11-23 17:33:44,421 - __main__ - INFO - Plot points: Corporate Interest
+2024-11-23 17:33:44,421 - __main__ - INFO - Attempt 1 to generate chapter 2
+2024-11-23 17:33:44,421 - novel_ai.writer - INFO - Starting chapter generation for: Corporate Eyes
+2024-11-23 17:34:14,520 - novel_ai.writer - ERROR - Failed to generate content: 
+2024-11-23 17:34:14,520 - __main__ - ERROR - Error on attempt 1: 
+2024-11-23 17:34:14,520 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 344, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 192, in generate_chapter_with_retry
+    chapter = await writer.generate_chapter(chapter_brief)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\novel_ai\writer.py", line 102, in generate_chapter
+    content = await self._generate_content(prompt)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\novel_ai\writer.py", line 52, in _generate_content
+    result = await response.json()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 1250, in json
+    await self.read()
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 1192, in read
+    self._body = await self.content.read()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 415, in read
+    block = await self.readany()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 437, in readany
+    await self._wait("readany")
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 343, in _wait
+    with self._timer:
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 671, in __exit__
+    raise asyncio.TimeoutError from exc_val
+TimeoutError
+
+2024-11-23 17:34:14,529 - __main__ - INFO - Waiting 5 seconds before retry...
+2024-11-23 17:34:19,536 - __main__ - INFO - Attempt 2 to generate chapter 2
+2024-11-23 17:34:19,536 - novel_ai.writer - INFO - Starting chapter generation for: Corporate Eyes
+2024-11-23 17:34:46,101 - __main__ - INFO - Chapter saved to story_data\chapters\chapter_002_20241123_173446.txt
+2024-11-23 17:34:46,101 - __main__ - INFO - Metadata saved to story_data\chapters\chapter_002_20241123_173446_metadata.json
+2024-11-23 17:34:46,101 - __main__ - INFO - Waiting 10 seconds before next chapter...
+2024-11-23 17:34:56,103 - __main__ - INFO - 
+Generating chapter 3: Family Ties
+2024-11-23 17:34:56,103 - __main__ - INFO - Characters: Sarah Chen, Emily Chen
+2024-11-23 17:34:56,103 - __main__ - INFO - Plot points: Sister's Investigation
+2024-11-23 17:34:56,103 - __main__ - INFO - Attempt 1 to generate chapter 3
+2024-11-23 17:34:56,103 - novel_ai.writer - INFO - Starting chapter generation for: Family Ties
+2024-11-23 17:35:06,568 - novel_ai.writer - ERROR - API request failed with status 408: {"error":"Operation timed out. Please try again later."}
+2024-11-23 17:35:16,765 - novel_ai.writer - ERROR - API request failed with status 408: {"error":"Operation timed out. Please try again later."}
+2024-11-23 17:35:26,932 - novel_ai.writer - ERROR - API request failed with status 408: {"error":"Operation timed out. Please try again later."}
+2024-11-23 17:35:26,932 - novel_ai.writer - ERROR - Failed to generate content: Failed after 3 attempts
+2024-11-23 17:35:26,932 - __main__ - ERROR - Error on attempt 1: Failed after 3 attempts
+2024-11-23 17:35:26,947 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 192, in generate_chapter_with_retry
+    chapter = await writer.generate_chapter(chapter_brief)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\novel_ai\writer.py", line 102, in generate_chapter
+    content = await self._generate_content(prompt)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\novel_ai\writer.py", line 58, in _generate_content
+    raise Exception(f"Failed after {self.api_config.max_retries} attempts")
+Exception: Failed after 3 attempts
+
+2024-11-23 17:35:26,949 - __main__ - INFO - Waiting 5 seconds before retry...
+2024-11-23 17:35:31,965 - __main__ - INFO - Attempt 2 to generate chapter 3
+2024-11-23 17:35:31,966 - novel_ai.writer - INFO - Starting chapter generation for: Family Ties
+2024-11-23 17:36:02,531 - novel_ai.writer - ERROR - Failed to generate content: 
+2024-11-23 17:36:02,531 - __main__ - ERROR - Error on attempt 2: 
+2024-11-23 17:36:02,531 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 344, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 192, in generate_chapter_with_retry
+    chapter = await writer.generate_chapter(chapter_brief)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\novel_ai\writer.py", line 102, in generate_chapter
+    content = await self._generate_content(prompt)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\novel_ai\writer.py", line 52, in _generate_content
+    result = await response.json()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 1250, in json
+    await self.read()
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 1192, in read
+    self._body = await self.content.read()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 415, in read
+    block = await self.readany()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 437, in readany
+    await self._wait("readany")
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 343, in _wait
+    with self._timer:
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 671, in __exit__
+    raise asyncio.TimeoutError from exc_val
+TimeoutError
+
+2024-11-23 17:36:02,539 - __main__ - INFO - Waiting 10 seconds before retry...
+2024-11-23 17:36:12,529 - __main__ - INFO - Attempt 3 to generate chapter 3
+2024-11-23 17:36:12,531 - novel_ai.writer - INFO - Starting chapter generation for: Family Ties
+2024-11-23 17:36:43,529 - novel_ai.writer - ERROR - Failed to generate content: 
+2024-11-23 17:36:43,529 - __main__ - ERROR - Error on attempt 3: 
+2024-11-23 17:36:43,529 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 344, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 192, in generate_chapter_with_retry
+    chapter = await writer.generate_chapter(chapter_brief)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\novel_ai\writer.py", line 102, in generate_chapter
+    content = await self._generate_content(prompt)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\novel_ai\writer.py", line 52, in _generate_content
+    result = await response.json()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 1250, in json
+    await self.read()
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 1192, in read
+    self._body = await self.content.read()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 415, in read
+    block = await self.readany()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 437, in readany
+    await self._wait("readany")
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 343, in _wait
+    with self._timer:
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 671, in __exit__
+    raise asyncio.TimeoutError from exc_val
+TimeoutError
+
+2024-11-23 17:36:43,529 - __main__ - ERROR - Failed to generate chapter 3: Failed to generate chapter after 3 attempts
+2024-11-23 17:36:43,529 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 344, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 192, in generate_chapter_with_retry
+    chapter = await writer.generate_chapter(chapter_brief)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\novel_ai\writer.py", line 102, in generate_chapter
+    content = await self._generate_content(prompt)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\novel_ai\writer.py", line 52, in _generate_content
+    result = await response.json()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 1250, in json
+    await self.read()
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 1192, in read
+    self._body = await self.content.read()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 415, in read
+    block = await self.readany()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 437, in readany
+    await self._wait("readany")
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\streams.py", line 343, in _wait
+    with self._timer:
+  File "C:\Users\camd1\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 671, in __exit__
+    raise asyncio.TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 283, in generate_book
+    chapter = await generate_chapter_with_retry(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_book.py", line 204, in generate_chapter_with_retry
+    raise Exception(f"Failed to generate chapter after {max_retries} attempts")
+Exception: Failed to generate chapter after 3 attempts
+
+2024-11-23 19:38:04,748 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-23 19:38:04,761 - __main__ - INFO - Resuming book generation from chapter 3
+2024-11-23 19:38:04,767 - __main__ - INFO - Created story structure: Digital Consciousness
+2024-11-23 19:38:04,774 - __main__ - INFO - 
+Generating chapter 3: Family Ties
+2024-11-23 19:38:04,774 - __main__ - INFO - Characters: Sarah Chen, Emily Chen
+2024-11-23 19:38:04,775 - __main__ - INFO - Plot points: Sister's Investigation
+2024-11-23 19:38:04,775 - generate_book - INFO - Attempt 1 to generate chapter 3
+2024-11-23 19:38:04,775 - novel_ai.writer - INFO - Starting chapter generation for: Family Ties
+2024-11-23 19:39:05,521 - novel_ai.writer - ERROR - Request timeout on attempt 1
+2024-11-23 19:39:05,522 - novel_ai.writer - INFO - Waiting 10 seconds before retry...
+2024-11-23 19:40:11,290 - generate_book - INFO - Chapter saved to story_data\chapters\chapter_003_20241123_194011.txt
+2024-11-23 19:40:11,290 - generate_book - INFO - Metadata saved to story_data\chapters\chapter_003_20241123_194011_metadata.json
+2024-11-23 19:40:11,290 - __main__ - INFO - Waiting 30 seconds before next chapter...
+2024-11-23 19:40:41,286 - __main__ - INFO - 
+Generating chapter 4: Warnings
+2024-11-23 19:40:41,287 - __main__ - INFO - Characters: Sarah Chen, Dr. David Kumar
+2024-11-23 19:40:41,288 - __main__ - INFO - Plot points: Mentor's Warning
+2024-11-23 19:40:41,288 - generate_book - INFO - Attempt 1 to generate chapter 4
+2024-11-23 19:40:41,289 - novel_ai.writer - INFO - Starting chapter generation for: Warnings
+2024-11-23 19:41:20,087 - generate_book - INFO - Chapter saved to story_data\chapters\chapter_004_20241123_194120.txt
+2024-11-23 19:41:20,087 - generate_book - INFO - Metadata saved to story_data\chapters\chapter_004_20241123_194120_metadata.json
+2024-11-23 19:41:20,087 - __main__ - INFO - Waiting 30 seconds before next chapter...
+2024-11-23 19:41:50,080 - __main__ - INFO - 
+Generating chapter 5: Pressure Points
+2024-11-23 19:41:50,081 - __main__ - INFO - Characters: Sarah Chen, Marcus Webb, Emily Chen, Dr. David Kumar
+2024-11-23 19:41:50,081 - __main__ - INFO - Plot points: Corporate Pressure
+2024-11-23 19:41:50,082 - generate_book - INFO - Attempt 1 to generate chapter 5
+2024-11-23 19:41:50,082 - novel_ai.writer - INFO - Starting chapter generation for: Pressure Points
+2024-11-23 19:42:33,795 - generate_book - INFO - Chapter saved to story_data\chapters\chapter_005_20241123_194233.txt
+2024-11-23 19:42:33,795 - generate_book - INFO - Metadata saved to story_data\chapters\chapter_005_20241123_194233_metadata.json
+2024-11-23 19:42:33,795 - __main__ - INFO - Waiting 30 seconds before next chapter...
+2024-11-23 19:43:03,794 - __main__ - INFO - 
+Generating chapter 6: Going Public
+2024-11-23 19:43:03,795 - __main__ - INFO - Characters: Sarah Chen, Marcus Webb, Emily Chen, Dr. David Kumar
+2024-11-23 19:43:03,795 - __main__ - INFO - Plot points: Public Revelation
+2024-11-23 19:43:03,795 - generate_book - INFO - Attempt 1 to generate chapter 6
+2024-11-23 19:43:03,795 - novel_ai.writer - INFO - Starting chapter generation for: Going Public
+2024-11-23 19:43:48,141 - generate_book - INFO - Chapter saved to story_data\chapters\chapter_006_20241123_194348.txt
+2024-11-23 19:43:48,142 - generate_book - INFO - Metadata saved to story_data\chapters\chapter_006_20241123_194348_metadata.json
+2024-11-23 19:43:48,142 - __main__ - INFO - Waiting 30 seconds before next chapter...
+2024-11-23 19:44:18,157 - __main__ - INFO - 
+Generating chapter 7: The Decision
+2024-11-23 19:44:18,158 - __main__ - INFO - Characters: Sarah Chen, Marcus Webb, Emily Chen, Dr. David Kumar
+2024-11-23 19:44:18,158 - __main__ - INFO - Plot points: Final Choice
+2024-11-23 19:44:18,158 - generate_book - INFO - Attempt 1 to generate chapter 7
+2024-11-23 19:44:18,158 - novel_ai.writer - INFO - Starting chapter generation for: The Decision
+2024-11-23 19:44:58,259 - generate_book - INFO - Chapter saved to story_data\chapters\chapter_007_20241123_194458.txt
+2024-11-23 19:44:58,261 - generate_book - INFO - Metadata saved to story_data\chapters\chapter_007_20241123_194458_metadata.json

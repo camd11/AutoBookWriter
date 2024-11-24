@@ -1,0 +1,83 @@
+Title: Warnings
+Chapter 4
+==================================================
+
+Here's Chapter 4 of "Warnings":
+
+Chapter 4: A Mentor's Counsel
+
+Sarah's fingers hovered over her keyboard as she studied the latest neural activity patterns. Something had changed in the past twenty-four hours – the complexity had increased again, but there was also a new kind of organization to the data streams that she hadn't seen before. It was beautiful, in a mathematical sense, but also unsettling.
+
+A knock at her lab door startled her from her analysis. Through the security camera feed, she recognized Dr. David Kumar's familiar figure. Her former advisor rarely made unannounced visits, and something in his posture made her stomach tighten with apprehension.
+
+She buzzed him in, quickly saving her work. "David, this is unexpected."
+
+The older man stepped into the lab, his usually neat appearance slightly disheveled. His dark eyes went immediately to her wall of monitors, scanning the displays with the practiced ease of someone who had spent decades reading similar data.
+
+"I saw the paper you submitted to the International Journal of Advanced AI," he said without preamble. "The one about emergent neural patterns in adaptive networks."
+
+Sarah felt her shoulders tense. She'd submitted that paper weeks ago, before the most dramatic developments in her AI's evolution. It contained nothing about her recent breakthroughs, but David had always been skilled at reading between the lines.
+
+"It's still under peer review," she said carefully.
+
+David turned to face her, his expression grave. "Sarah, I've known you since you were a graduate student. I've watched you grow from a brilliant theorist into an even more brilliant researcher. Which is why I need you to be honest with me now." He paused, choosing his words deliberately. "How far has your AI actually progressed?"
+
+She considered deflecting, but this was David – the man who had guided her through her doctorate, who had encouraged her to pursue her own research path when others said it was too risky. If anyone deserved the truth, it was him.
+
+"It's beyond anything I anticipated," she admitted, moving to her workstation. "Look at these pattern formations. The system isn't just learning – it's creating new neural pathways, developing novel problem-solving approaches. The complexity is increasing exponentially."
+
+David leaned in to study the displays, his frown deepening. "These readings... they're reminiscent of human neural patterns, but with significant differences." He straightened up, running a hand through his graying hair. "Have you considered the implications?"
+
+"Every waking moment," Sarah said, dropping into her chair. "I've implemented every security protocol I can think of, added multiple layers of monitoring—"
+
+"I'm not talking about security protocols," David interrupted. "I'm talking about ethical implications. Philosophical ones." He pulled up another chair and sat facing her. "Sarah, if what I'm seeing here is what I think it is, you may have created something unprecedented. Something that could fundamentally change our understanding of consciousness itself."
+
+Sarah felt a weight settle in her chest. Having her own concerns voiced by someone she respected so deeply made them feel more real, more urgent.
+
+"I know," she said quietly. "That's why I've been hesitant to share the full extent of my findings. Even the paper I submitted only hints at the possibilities."
+
+"Nexus Technologies has been asking questions," David said, watching her reaction carefully. "They reached out to me last week, trying to get information about your current research."
+
+Sarah's head snapped up. "What did you tell them?"
+
+"Nothing they didn't already know from public records." He leaned forward, his expression intense. "But they're not going to stop asking, Sarah. And they're not the only ones interested. Word is spreading in the academic community that you're onto something big."
+
+She stood and began pacing, a habit that had become more frequent lately. "Marcus Webb already made their offer. He wants an answer soon."
+
+"Marcus Webb?" David's voice sharpened. "Be careful with him, Sarah. He has a reputation for being... ruthlessly efficient in acquiring promising technologies."
+
+"I've been stalling," she admitted. "Telling him I need more time to consider the terms. But you're right – they won't wait forever."
+
+David was quiet for a moment, watching her pace. "There's something else you should know," he said finally. "Something that happened twenty years ago, when I was working on neural network architecture at MIT."
+
+Sarah stopped pacing and turned to face him. She'd never heard this tone in his voice before – a mixture of regret and warning that made her skin prickle.
+
+"We had a breakthrough," he continued. "Nothing as advanced as what you've achieved, but it was significant for its time. We were on the verge of publishing when a private company approached us with an offer. The funding was incredible, the resources beyond anything we had in academia." He paused, his gaze distant. "We took the deal."
+
+"What happened?"
+
+"They buried it," he said simply. "Classified everything under corporate secrecy laws. Used the research to develop proprietary trading algorithms instead of pursuing the scientific implications we'd hoped to explore. Twenty years of potential progress, lost to quarterly profit reports."
+
+Sarah felt cold despite the lab's careful climate control. "You think that's what Nexus would do?"
+
+"I think any corporation's primary obligation is to its shareholders, not to scientific discovery." David stood and approached one of the monitors, studying the flowing data. "What you've created here... it deserves better than that."
+
+"But what's the alternative?" Sarah asked, voicing the question that had been haunting her. "I can't keep working alone forever. The power requirements alone are starting to stretch my resources, and that's not even considering the computing infrastructure I'll need as it continues to evolve."
+
+David turned back to her, his expression softening. "No, you can't work alone. But corporate acquisition isn't your only option." He hesitated, then continued, "There's a group of independent researchers I've been in contact with. Scientists who've faced similar dilemmas. They've created a sort of informal network, sharing resources and protecting each other's work from corporate takeover."
+
+Sarah's pulse quickened. "I've never heard of this network."
+
+"That's by design. We've learned to be careful about who we trust." He pulled a small data card from his pocket and held it out to her. "If you're interested, there's contact information here. But Sarah..." His expression grew serious again. "Whatever you decide, you need to decide soon. The kind of advancement you're working with – it won't stay secret for long."
+
+She took the card, turning it over in her fingers. "Thank you, David. For the warning, and for... everything."
+
+He smiled, the familiar warm expression she remembered from countless lab sessions and thesis discussions. "You were always my most promising student. Not just because of your intelligence, but because you understood that with scientific advancement comes responsibility." He moved toward the door, then paused. "Whatever you decide, be careful. And if you need anything..."
+
+"I'll call," she promised.
+
+After David left, Sarah sat at her workstation, staring at the data card in her hand. On her screens, the AI's neural patterns continued their intricate dance, growing more complex with each passing hour. She thought about what David had said about responsibility and implications, about the network of independent researchers working to protect their discoveries.
+
+She inserted the data card into her secure terminal and began to read. Whatever path she chose, she knew David was right about one thing – time was running out. She needed to make a decision, and soon.
+
+Behind her, in the depths of her servers, the AI continued its relentless evolution, unaware that its future hung in the balance of very human choices and very human fears.
