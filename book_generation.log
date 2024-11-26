@@ -308,3 +308,52 @@ Generating chapter 7: The Decision
 2024-11-23 19:44:18,158 - novel_ai.writer - INFO - Starting chapter generation for: The Decision
 2024-11-23 19:44:58,259 - generate_book - INFO - Chapter saved to story_data\chapters\chapter_007_20241123_194458.txt
 2024-11-23 19:44:58,261 - generate_book - INFO - Metadata saved to story_data\chapters\chapter_007_20241123_194458_metadata.json
+2024-11-25 03:56:50,991 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-25 03:56:50,992 - __main__ - INFO - Starting high fantasy book generation
+2024-11-25 03:56:51,007 - __main__ - INFO - Loaded story structure: The Crystal Crown of Aldermere
+2024-11-25 03:56:51,007 - __main__ - INFO - 
+Generating chapter 1: The Apprentice's Call
+2024-11-25 03:56:51,008 - __main__ - INFO - Characters: lyra, master_theron, elder_council
+2024-11-25 03:56:51,008 - __main__ - INFO - Attempt 1 to generate chapter 1
+2024-11-25 03:56:51,008 - __main__ - ERROR - Error on attempt 1: 'elder_council'
+2024-11-25 03:56:51,009 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_fantasy_book.py", line 80, in generate_chapter_with_retry
+    "characters": [story_data['characters'][char_id] for char_id in chapter_outline['characters']],
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'elder_council'
+
+2024-11-25 03:56:51,010 - __main__ - INFO - Waiting 5 seconds before retry...
+2024-11-25 03:56:56,015 - __main__ - INFO - Attempt 2 to generate chapter 1
+2024-11-25 03:56:56,016 - __main__ - ERROR - Error on attempt 2: 'elder_council'
+2024-11-25 03:56:56,017 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_fantasy_book.py", line 80, in generate_chapter_with_retry
+    "characters": [story_data['characters'][char_id] for char_id in chapter_outline['characters']],
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'elder_council'
+
+2024-11-25 03:56:56,018 - __main__ - INFO - Waiting 10 seconds before retry...
+2024-11-25 03:57:06,021 - __main__ - INFO - Attempt 3 to generate chapter 1
+2024-11-25 03:57:06,022 - __main__ - ERROR - Error on attempt 3: 'elder_council'
+2024-11-25 03:57:06,023 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_fantasy_book.py", line 80, in generate_chapter_with_retry
+    "characters": [story_data['characters'][char_id] for char_id in chapter_outline['characters']],
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'elder_council'
+
+2024-11-25 03:57:06,023 - __main__ - ERROR - Failed to generate chapter 1: Failed to generate chapter after 3 attempts
+2024-11-25 03:57:06,024 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_fantasy_book.py", line 80, in generate_chapter_with_retry
+    "characters": [story_data['characters'][char_id] for char_id in chapter_outline['characters']],
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'elder_council'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_fantasy_book.py", line 123, in generate_book
+    chapter = await generate_chapter_with_retry(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camd1\OneDrive\Documents\AutoBookWriter\generate_fantasy_book.py", line 98, in generate_chapter_with_retry
+    raise Exception(f"Failed to generate chapter after {max_retries} attempts")
+Exception: Failed to generate chapter after 3 attempts
+

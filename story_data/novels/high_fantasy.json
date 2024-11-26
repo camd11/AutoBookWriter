@@ -1,0 +1,201 @@
+{
+    "title": "The Crystal Crown of Aldermere",
+    "synopsis": {
+        "content": "In the mystical realm of Aldermere, where ancient magic flows through crystalline spires and forgotten ruins whisper secrets of a fallen empire, young apprentice mage Lyra discovers she is the last descendant of the Crystal Crown's true heirs. As dark forces gather and an ancient evil stirs beneath the Shadowpeaks, Lyra must master forbidden magic, forge unlikely alliances, and embrace her destiny to prevent the realm's destruction. Her journey will test not only her magical abilities but also her understanding of sacrifice, loyalty, and the true nature of power.",
+        "version": 1,
+        "created_at": "2024-01-23T00:00:00",
+        "modified_at": "2024-01-23T00:00:00"
+    },
+    "id": "f8e7d6c5-b4a3-42f1-9e8d-1234567890ab",
+    "chapters": [
+        {
+            "title": "The Apprentice's Call",
+            "content": {
+                "content": "",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "sequence_number": 1,
+            "id": "ch1",
+            "status": "planned",
+            "plot_points": [],
+            "characters": ["lyra", "master_theron", "elder_council_leader"],
+            "notes": "Introduce Lyra's life as an apprentice, the magical system, and the first signs of her unique abilities"
+        },
+        {
+            "title": "Shadows in the Crystal Spires",
+            "content": {
+                "content": "",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "sequence_number": 2,
+            "id": "ch2",
+            "status": "planned",
+            "plot_points": [],
+            "characters": ["lyra", "master_theron", "shadowmancer"],
+            "notes": "First encounter with dark forces, discovery of her heritage"
+        },
+        {
+            "title": "The Ancient Prophecy",
+            "content": {
+                "content": "",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "sequence_number": 3,
+            "id": "ch3",
+            "status": "planned",
+            "plot_points": [],
+            "characters": ["lyra", "keeper_of_scrolls", "elder_council_leader"],
+            "notes": "Revelation of the prophecy and the true nature of the Crystal Crown"
+        }
+    ],
+    "characters": {
+        "lyra": {
+            "name": "Lyra Crystalleaf",
+            "description": {
+                "content": "A determined young apprentice mage with wild copper hair and emerald eyes. Despite her seemingly modest magical abilities, she possesses an innate connection to the ancient crystal magic that others can't perceive.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "background": {
+                "content": "Orphaned at a young age and raised within the Crystal Spires by the mages of Aldermere. Unknown to her, she is the last descendant of the realm's ancient crystal-wielding rulers.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "id": "lyra",
+            "traits": ["determined", "compassionate", "curious", "untapped potential"],
+            "relationships": {
+                "master_theron": "mentor",
+                "elder_council_leader": "authority figure",
+                "shadowmancer": "antagonist"
+            }
+        },
+        "master_theron": {
+            "name": "Master Theron",
+            "description": {
+                "content": "A wise but mysterious archmage with silver-streaked dark hair and knowing golden eyes. He sees the potential in Lyra that others miss.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "background": {
+                "content": "Once a member of the Elder Council, he stepped down to focus on teaching. He guards ancient secrets about the Crystal Crown and its true heirs.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "id": "master_theron",
+            "traits": ["wise", "protective", "secretive", "powerful"],
+            "relationships": {
+                "lyra": "student",
+                "elder_council_leader": "former peer",
+                "shadowmancer": "old rival"
+            }
+        },
+        "shadowmancer": {
+            "name": "The Shadowmancer",
+            "description": {
+                "content": "A mysterious figure shrouded in darkness, with eyes that gleam like obsidian. Their true form is hidden beneath swirling shadows.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "background": {
+                "content": "Once a powerful mage who sought to harness forbidden magic, they were corrupted by their pursuit of power. Now they seek the Crystal Crown to unleash ancient darkness.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "id": "shadowmancer",
+            "traits": ["powerful", "corrupted", "ambitious", "ruthless"],
+            "relationships": {
+                "lyra": "threat",
+                "master_theron": "old rival",
+                "elder_council_leader": "enemy"
+            }
+        },
+        "elder_council_leader": {
+            "name": "Archmagister Venna",
+            "description": {
+                "content": "A stern and traditional leader with piercing silver eyes and long white hair adorned with crystal ornaments. She embodies the ancient traditions of Aldermere.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "background": {
+                "content": "Leader of the Elder Council for over three decades, she maintains strict control over magical practices in Aldermere. Though wise, her rigid adherence to tradition sometimes blinds her to new possibilities.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "id": "elder_council_leader",
+            "traits": ["authoritative", "traditional", "powerful", "unyielding"],
+            "relationships": {
+                "lyra": "skeptical observer",
+                "master_theron": "former colleague",
+                "shadowmancer": "sworn enemy"
+            }
+        },
+        "keeper_of_scrolls": {
+            "name": "Sage Aldrin",
+            "description": {
+                "content": "A hunched, elderly scholar with kind eyes and gnarled hands stained with ink. His robes are always dusty from the ancient tomes he tends.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "background": {
+                "content": "Guardian of Aldermere's vast library of magical knowledge and keeper of its most ancient secrets. He has spent decades studying the prophecies of the Crystal Crown.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "id": "keeper_of_scrolls",
+            "traits": ["scholarly", "kind", "observant", "secretive"],
+            "relationships": {
+                "lyra": "mentor",
+                "elder_council_leader": "advisor",
+                "master_theron": "confidant"
+            }
+        }
+    },
+    "plot_points": {
+        "discovery": {
+            "title": "Discovery of Heritage",
+            "description": {
+                "content": "Lyra discovers her true identity as the last heir to the Crystal Crown through an ancient magical resonance with the crown's fragments.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "id": "discovery",
+            "chapter_id": "ch2",
+            "dependencies": []
+        },
+        "prophecy": {
+            "title": "The Ancient Prophecy",
+            "description": {
+                "content": "The revelation of a prophecy that speaks of the last crystal heir rising to face a great darkness threatening to consume Aldermere.",
+                "version": 1,
+                "created_at": "2024-01-23T00:00:00",
+                "modified_at": "2024-01-23T00:00:00"
+            },
+            "id": "prophecy",
+            "chapter_id": "ch3",
+            "dependencies": ["discovery"]
+        }
+    },
+    "style_guide": {
+        "content": "High fantasy style with rich, descriptive language focusing on magical elements, ancient lore, and the mystical nature of Aldermere. Emphasize the crystalline magic system through vivid imagery and sensory details. Character dialogue should reflect their positions and backgrounds, from formal Elder Council speech to more casual apprentice conversations. Magic should be described with specific attention to its crystalline nature, colors, and effects on the environment.",
+        "version": 1,
+        "created_at": "2024-01-23T00:00:00",
+        "modified_at": "2024-01-23T00:00:00"
+    }
+}
