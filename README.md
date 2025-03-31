@@ -35,31 +35,51 @@ The system consists of several key modules working together to manage the novel 
 
 ## Setup
 
-1. Clone the repository
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/AutoBookWriter.git
+cd AutoBookWriter
+```
+
 2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Create a configuration file `config.json`:
-```json
-{
-    "storage_path": "path/to/story/data",
-    "log_level": "INFO",
-    "api_config": {
-        "api_key": "your-claude-api-key",
-        "base_url": "https://api.anthropic.com/v1",
-        "max_retries": 3,
-        "timeout": 30,
-        "max_tokens": 4096,
-        "temperature": 0.7
-    }
-}
+3. Set up your environment variables:
+   - Copy the example environment file: 
+     ```bash
+     cp .env.example .env
+     ```
+   - Edit `.env` and add your OpenRouter API key:
+     ```
+     OPENROUTER_API_KEY=your_openrouter_api_key_here
+     ```
+   - Alternatively, you can set the environment variable directly:
+     ```bash
+     export OPENROUTER_API_KEY=your_api_key_here
+     ```
+
+4. Create necessary directories:
+```bash
+mkdir -p data/chapters data/analysis data/reviews data/story_states data/database_backups logs/conversations
 ```
 
-## Usage
+## API Key Security
 
-Basic usage example:
+This project uses the OpenRouter API which requires an API key. To obtain an API key:
+
+1. Sign up at [OpenRouter](https://openrouter.ai/)
+2. Navigate to your account settings
+3. Generate a new API key
+4. Add this key to your `.env` file as described in the Setup section
+
+**Important Security Notes:**
+- Never commit your `.env` file to git (it's already in `.gitignore`)
+- If you accidentally expose your API key, rotate it immediately
+- See `API_KEY_SECURITY.md` for more detailed security best practices
+
+## Usage
 
 ```python
 from novel_ai.config import initialize_config
